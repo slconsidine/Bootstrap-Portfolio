@@ -1,0 +1,22 @@
+/* 
+
+headings and backgrounds: #4aaaa5
+regular font color: #777777
+main header background color: #ffffff
+main header border color: #cccccc
+footer background color: #666666
+main content background color: #ffffff
+main content border color: #dddddd
+
+heading fonts: font-family: 'Georgia', Times, Times New Roman, serif;
+all other fonts: font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+*/
+
+body {
+    background-image: url(./../images/spikes/spikes.png);
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    width: 100%;
+}
