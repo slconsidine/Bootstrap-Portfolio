@@ -19,6 +19,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     width: 100%;
+    height: 100%;
 }
 
 .header {
@@ -79,5 +80,13 @@ h1 {
 hr {
     padding: 0px 20px 10px 20px;
     margin-top: -10px;
+}
+
+footer {
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    color: #fff;
+    background-color: #666;
+    text-align: center;
 }
 
