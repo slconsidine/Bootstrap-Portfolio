@@ -23,32 +23,27 @@
 
 <body>
 
-  <div class="header">
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="./index.html">Samantha Considine</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <ul class="navbar-nav navlist">
-            <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-        </ul>
-    </nav>
-  </div>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="./index.html">Samantha Considine</a>
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> -->
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="./portfolio.html">Portfolio</a>
+      <a class="nav-item nav-link" href="./contact.html">Contact</a>
+    </div>
+
+</nav>
 
   <div class="container">
-    <div class="row">
+    <div class="row imagetiles">
       <div class="col-md-4 col-sm-6 col-xs-12">
         <a href="#"><img src="./assets/images/ocean.jpg" width="300px" height="150px">
-          <p>Hangman</p>
+          <div class="carousel-caption">
+            Hangman
+          </div>
         </a>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
@@ -58,7 +53,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row imagetiles">
       <div class="col-md-4 col-sm-6 col-xs-12">
         <a href="#"><img src="./assets/images/mountains.jpg" width="300px" height="150px">
           <p>Rock Paper Scissors</p>
@@ -71,7 +66,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row imagetiles">
       <div class="col-md-4 col-sm-6 col-xs-12">
         <a href="#"><img src="./assets/images/river.jpg" width="300px" height="150px">
           <p>Rutgers Info Widget</p>
