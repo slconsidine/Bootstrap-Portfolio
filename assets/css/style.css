@@ -120,7 +120,7 @@ img {
         margin: auto;
     }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 400px) {
     .profile {
         width: 100%;
         height: 100%;
